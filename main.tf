@@ -1,9 +1,9 @@
 resource "aws_instance" "my_vm" {
- ami           = var.ami //Ubuntu AMI
- instance_type = var.instance_type
+ ami           = var.ami-0a6006bac3b9bb8d3 //Ubuntu AMI
+ instance_type = t2micro
 
  tags = {
-   Name = var.name_tag,
+   Name = var.my instance_tag,
  }
 }
 
